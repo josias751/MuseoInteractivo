@@ -1,0 +1,59 @@
+.menu 
+{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+.link {
+    color: crimson;
+    display: inline;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    /* Make the menu items left*/
+    float: left;
+}
+
+.link:hover {
+    background-color: rgb(8, 8, 0);
+}
+
+body
+{
+    background: linear-gradient(yellow,red,blue );   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li {
+    border-right: 1px solid #bbb;
+  }
